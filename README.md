@@ -16,3 +16,25 @@ This project demonstrates how to containerize a simple web application using Doc
 
 ## Outcome
 The application runs successfully inside a Docker container and is accessible via browser.
+
+## Business Use Case
+This project represents a simple cloud-native web application that could be used as a lightweight service in a business environment (for example, an internal dashboard or product landing page).
+
+## Business Lifecycle Mapping
+
+| Stage | Description | Technology |
+|------|-------------|------------|
+| Requirement | Simple scalable web service | Business requirement |
+| Development | Static web application | HTML |
+| Build | Containerized application | Docker |
+| Deployment | Application deployed to cluster | Kubernetes Deployment |
+| Exposure | Service exposed to users | Kubernetes Service |
+| Scaling | Increased replicas for load | Kubernetes Scaling |
+| Operations | Monitoring and troubleshooting | kubectl, logs |
+| Updates | Rolling updates without downtime | Kubernetes |
+
+## Key Learnings
+- Containerized applications using Docker
+- Deployed and managed applications on Kubernetes
+- Scaled workloads and exposed services
+- Understood cloud-native application lifecycle
